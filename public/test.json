@@ -1,0 +1,45 @@
+[
+  {
+    "data": {
+      "id": 1,
+      "author": {
+        "id": 1,
+        "name": "asdasd",
+        "email": "asd@asd.hu"
+      },
+      "body": "asdasd",
+      "created_at": "2017-12-14 22:47:24",
+      "updated_at": "2017-12-14 22:47:28"
+    }
+  },
+  {
+    "data": {
+      "id": 2,
+      "author": {
+        "id": 1,
+        "name": "asdasd",
+        "email": "asd@asd.hu"
+      },
+      "body": "aaaa",
+      "created_at": "",
+      "updated_at": ""
+    }
+  },
+  {
+    "links": {
+      "first": "http:\/\/127.0.0.1:8000\/posts\/1\/comments?page=1",
+      "last": "http:\/\/127.0.0.1:8000\/posts\/1\/comments?page=3",
+      "prev": null,
+      "next": "http:\/\/127.0.0.1:8000\/posts\/1\/comments?page=2"
+    },
+    "meta": {
+      "current_page": 1,
+      "from": 1,
+      "last_page": 3,
+      "path": "http:\/\/127.0.0.1:8000\/posts\/1\/comments",
+      "per_page": 2,
+      "to": 2,
+      "total": 6
+    }
+  }
+]
